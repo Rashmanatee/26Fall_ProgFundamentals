@@ -1,0 +1,4 @@
+import sqlite3
+
+conn = sqlite3.connect(StudentRecords.db)
+cur = conn.cursor 
